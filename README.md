@@ -47,4 +47,4 @@ Any contribution is **highly** appreciated. **Thank you in advance** and have fu
 [url-recaptcha-tags]: https://developers.google.com/recaptcha/docs/display#render_param
 [url-index-html]:     https://github.com/richrdkng/recaptcha-test/blob/main/index.html
 [url-github]:         https://github.com/richrdkng
-[url-license]:        https://github.com/richrdkng/recaptcha-test/blob/master/README.md
+[url-license]:        https://github.com/richrdkng/recaptcha-test/blob/master/LICENSE.md
