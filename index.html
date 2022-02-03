@@ -22,22 +22,22 @@
     ></div>
 
     <script>
-        // fired, when the reCAPTCHA is loaded
+        // fired, when the reCAPTCHA is loaded (onload URL parameter)
         function onCaptchaLoad() {
             console.log('onCaptchaLoad')
         }
 
-        // fired, when the user submits a successful reCAPTCHA response
+        // fired, when the user submits a successful reCAPTCHA response (data-callback attribute)
         function onCaptchaSuccess(token) {
             console.log('onCaptchaSuccess', token)
         }
 
-        // fired, when the reCAPTCHA response expires and the user needs to re-verify
+        // fired, when the reCAPTCHA response expires and the user needs to re-verify (data-expired-callback attribute)
         function onCaptchaExpired() {
             console.log('onCaptchaExpired')
         }
 
-        // fired, when the reCAPTCHA encounters an error
+        // fired, when the reCAPTCHA encounters an error (data-error-callback attribute)
         function onCaptchaError() {
             console.log('onCaptchaError')
         }
